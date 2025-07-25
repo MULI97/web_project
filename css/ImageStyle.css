@@ -1,0 +1,15 @@
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 15px;
+}
+
+img.full-width-img {
+  width: 100%;           /* Make image span the full screen width */
+  height: 300px;         /* Set a fixed height (adjust as needed) */
+  object-fit: cover;     /* Crop image to fill without distortion */
+  display: block;        /* Removes tiny gap under image */
+  margin: 0 auto;        /* Optional: center in block context */
+  border-radius: 5px;    /* Optional: soft corners */
+}

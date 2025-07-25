@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Submit Feedback - The_ePatriot</title>
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+
+  <div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="officials.html">Officials</a>
+    <a href="petitions.html">Petitions</a>
+    <a href="feedback.html">Feedback</a>
+    <div class="topnav-right">
+      <a href="login.html">Login</a>
+      <a href="register.html">Register</a>
+    </div>
+  </div>
+
+  <div class="header">
+    <h1>Submit Feedback</h1>
+    <p>Let your voice be heard. Help improve governance.</p>
+  </div>
+
+  <div class="row">
+    <div class="content">
+      <h2>Your Feedback</h2>
+      <form action="submit_feedback.php" method="POST">
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required />
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="official">Official (Name or Position):</label>
+        <input type="text" id="official" name="official" required />
+
+        <label for="type">Type of Feedback:</label>
+        <select id="type" name="type" required>
+          <option value="">Select type</option>
+          <option value="complaint">Complaint</option>
+          <option value="suggestion">Suggestion</option>
+          <option value="praise">Praise</option>
+          <option value="other">Other</option>
+        </select>
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+
+        <button type="submit">Submit Feedback</button>
+      </form>
+    </div>
+
+    <div class="sidebar">
+      <h2>Why Feedback Matters</h2>
+      <p>Your feedback helps public officials understand what’s working and what’s not. Together, we build a more accountable society.</p>
+      <img src="images/feedback.jpg" alt="Feedback Image" class="full-width-img">
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>© 2025 The_ePatriot. All rights reserved.</p>
+    <p>Email us at <a href="mailto:support@theepatriot.org">support@theepatriot.org</a></p>
+  </div>
+
+</body>
+</html>
