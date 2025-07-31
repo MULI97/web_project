@@ -9,14 +9,14 @@
 <body>
 
   <div class="topnav">
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="officials.html">Officials</a>
-    <a href="petitions.html">Petitions</a>
-    <a href="feedback.html">Feedback</a>
+    <a href="index.php">Home</a>
+    <a href="about.php">About</a>
+    <a href="officials.php">Officials</a>
+    <a href="petitions.php">Petitions</a>
+    <a href="feedback.php">Feedback</a>
     <div class="topnav-right">
-      <a href="login.html">Login</a>
-      <a href="register.html">Register</a>
+      <a href="login.php">Login</a>
+      <a href="register.php">Register</a>
     </div>
   </div>
 
@@ -45,21 +45,21 @@
             <td>Member of Parliament</td>
             <td>Nairobi West</td>
             <td>★★★★☆</td>
-            <td><a href="official-details.html?id=1">View</a></td>
+            <td><a href="official-details.php?id=1">View</a></td>
           </tr>
           <tr>
             <td>David Otieno</td>
             <td>Senator</td>
             <td>Kisumu</td>
             <td>★★★☆☆</td>
-            <td><a href="official-details.html?id=2">View</a></td>
+            <td><a href="official-details.php?id=2">View</a></td>
           </tr>
           <tr>
             <td>Fatuma Hassan</td>
             <td>Governor</td>
             <td>Mombasa</td>
             <td>★★★★★</td>
-            <td><a href="official-details.html?id=3">View</a></td>
+            <td><a href="official-details.php?id=3">View</a></td>
           </tr>
         </tbody>
       </table>
