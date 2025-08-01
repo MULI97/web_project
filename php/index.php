@@ -1,26 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - The_ePatriot</title>
-    <link rel="stylesheet" href="css/main.css">
-</head>
-<body>
-<div class="topnav">
-    <!-- Top nav section -->
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="officials.html">Officials</a>
-    <a href="petitions.html">Petitions</a>
-    <a href="feedback.html">Feedback</a>
-    <a href="dashboard.html">Dashboard</a>
-
-    <div class="topnav-right">
-        <a href="login.html">Login</a>
-        <a href="register.html">Register</a>
-    </div>
-</div>
+<?php
+    require 'config/dbConnect.php';
+    require 'includes/header.php'; // Contains <head> and opening <html><body>
+    require 'includes/nav.php';    // Top navigation bar
+?>
 
 <div class="header">
     <h1>Welcome to The_ePatriot</h1>
@@ -59,9 +41,8 @@
         </ol>
 
         <p>HTML entities: &copy; 2025 The_ePatriot &nbsp; | &lt;Empowering Citizens&gt; &amp; Leaders</p>
-
     </div>
-    
+
     <div class="sidebar">
         <h2>Quick Facts</h2>
         <p><strong>Launched:</strong> 2025</p>
@@ -71,10 +52,6 @@
     </div>
 </div>
 
-<div class="footer">
-    <p>© 2025 The_ePatriot. All rights reserved.</p>
-    <p>Contact us at <a href="mailto:support@theepatriot.org">support@theepatriot.org</a></p>
-</div>
-
-</body>
-</html>
+<?php
+    require 'includes/footer.php'; // Footer and closing </body></html>
+?>
