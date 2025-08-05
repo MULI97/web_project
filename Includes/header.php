@@ -9,6 +9,6 @@
             echo ucwords(str_replace('_', ' ', reset($title))) . ' - The_ePatriot';
         ?>
     </title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
